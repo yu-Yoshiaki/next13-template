@@ -92,6 +92,7 @@ module.exports = {
         "pages/**/*.tsx",
         "pages/api/**/*.ts",
         "next.config.mjs",
+        "app/**/*.{tsx,ts}",
       ],
       rules: { "import/no-default-export": "off" },
     },
@@ -100,7 +101,8 @@ module.exports = {
         "pages/**/*.tsx",
         "pages/api/**/*.ts",
         "next.config.mjs",
-        "src/type/**/*.d.ts",
+        "src/types/**/*.d.ts",
+        "jest.config.js",
       ],
       rules: {
         "@typescript-eslint/naming-convention": [

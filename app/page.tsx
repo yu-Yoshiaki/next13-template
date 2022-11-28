@@ -1,6 +1,6 @@
-import type { FC } from "react";
+"use client";
 
-export const Index: FC = () => {
+const Page = () => {
   const handleClick = () => {
     window.alert("Hello, World!");
   };
@@ -14,3 +14,5 @@ export const Index: FC = () => {
     </div>
   );
 };
+
+export default Page;

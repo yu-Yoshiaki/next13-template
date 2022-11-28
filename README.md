@@ -1,6 +1,6 @@
 # Next.js starter template.
 
-- Next.js
+- Next.js 13
 - TypeScript
 - ESLint
 - Prettier

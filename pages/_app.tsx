@@ -1,4 +1,4 @@
-import "../src/style/index.css";
+import "src/styles/index.css";
 
 import type { CustomAppPage } from "next/app";
 import Head from "next/head";
